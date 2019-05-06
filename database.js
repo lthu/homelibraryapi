@@ -4,9 +4,9 @@ var util = require('util');
 var pool = mysql.createPool({
     connectionLmit: 10,
     host: "mydb.tamk.fi",
-    user: "c9lhuusk",
-    password: "Peruna123",
-    database: "dbc9lhuusk1"
+    user: "",
+    password: "",
+    database: ""
   });
   
 pool.getConnection((err, connection) => {
