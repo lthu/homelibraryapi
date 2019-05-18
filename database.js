@@ -3,7 +3,7 @@ var util = require('util');
 
 var pool = mysql.createPool({
     connectionLmit: 10,
-    host: "mydb.tamk.fi",
+    host: "",
     user: "",
     password: "",
     database: ""
